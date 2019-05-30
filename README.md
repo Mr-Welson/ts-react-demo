@@ -18,3 +18,9 @@ TypeScript是一个用过都说好的前端框架
 
 
 
+
+
+
+## 参考资料: [Lemoncode](https://github.com/Lemoncode/react-by-sample) 
+
+
