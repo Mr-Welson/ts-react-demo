@@ -1,0 +1,17 @@
+button {
+  padding: 4px 12px;
+  margin: 10px;
+  outline: none;
+  background: transparent;
+  border: 1px solid #999; 
+  cursor: pointer;
+}
+button.red {
+  color: red;
+}
+button.green {
+  color: green;
+}
+button.blue {
+  color: blue;
+}

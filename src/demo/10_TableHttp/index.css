@@ -1,0 +1,23 @@
+.table {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+.table tr {
+  border: 1px solid #333;
+}
+.avatar-td {
+  width: 30%;
+}
+.avatar-td img {
+  width: 40px;
+  height: 40px;
+}
+.id-td {
+  width: 30%;
+}
+.name-td {
+  width: 40%;
+}
+
