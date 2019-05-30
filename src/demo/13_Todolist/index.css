@@ -1,0 +1,22 @@
+.todo-list-app-container {
+  width: 70%;
+  border: 1px solid #999;
+  margin: 50px auto;
+  padding: 20px;
+}
+.todo-list-app-container .add-todo-container{
+  margin-bottom: 20px;
+}
+
+.todo-list-app-container .todo-list-container {
+  margin-bottom: 20px;
+}
+
+.todo-list-app-container .todo-list-container .todo-item{
+  display: block;
+}
+
+.todo-list-app-container .todo-list-container .done{
+  text-decoration: line-through;
+  color: #999;
+}

@@ -10,6 +10,7 @@ import TableMock from './demo/09_TableMock/index';
 import TableHttp from './demo/10_TableHttp/index';
 import Context from './demo/11_Context/index';
 import HOC from './demo/12_HOC/index';
+import Todolist from './demo/13_Todolist/index';
 
 export interface IRoute {
   path: string
@@ -77,5 +78,10 @@ export const routeList: IRoute[] = [
     path: '/hoc',
     label: 'hoc',
     component: HOC
+  },
+  {
+    path: '/todolist',
+    label: 'Todolist',
+    component: Todolist
   },
 ]
