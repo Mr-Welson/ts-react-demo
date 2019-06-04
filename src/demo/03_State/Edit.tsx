@@ -9,7 +9,7 @@ interface IProps {
 const Edit = ({name, onChange}:IProps) => (
   <>
     <label> 
-      <span>同步修改name: </span>       
+      <span>同步修改name: </span>
       <input type="text" value={name} onChange={onChange}/>
     </label>
   </>

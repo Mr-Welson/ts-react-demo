@@ -28,6 +28,7 @@ class TodoListContainer extends React.Component<{}, IContainerState> {
   onItemClick = (id: number) => {
     const { todos } = this.state;
     const item = todos.find(v => v.id === id) as ITodoItem;
+    // const item = todos.find(v => v.id === id)!;
     item.isDone = !item.isDone;
     this.setState({
       todos
